@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(248, 230, 255);
+    font-family: 'Poppins', sans-serif;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin: auto;
+}
+
+.automatic-machine {
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    color: rgb(84, 0, 100);
+    background-color: rgb(236, 215, 255);
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+
+.username {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300px;
+    font-size: large;
+    padding: 5px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+
+#enter {
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    position: static;
+}
+
+#write-password {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    position: static;
+}
+
+#password {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    position: static;
+}
+
+
+.welcome {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    position: static;
+}
+
+.submitAmmount {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+}
+
+#addingAmount {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+}
+
+#addingAmountb {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+}
+
+.check-balance {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+}
+
+.close-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+}

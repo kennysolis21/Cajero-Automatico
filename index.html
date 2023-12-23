@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="automatic-machine" id="atm">
+        <h1>Cajero Automático</h1>
+        <select id="username"  class="username">
+          <option>Usuario</option>
+            <option value="0">Oliver</option>
+            <option value="1">Gesela</option>
+            <option value="2">Andrea</option>
+        </select>
+
+        <div id="user-password" style="display:none">
+            <label id="write-password">Introduce tu contraseña</label>
+            <input type="password" id="password" required placeholder="Ingrese contraseña">
+        </div>
+        <button id="enter" onclick="entrar()">Entrar</button>
+
+        <div id="options" class="second-step">
+            <h2 class="welcome">¡Bienvenido!</h2>
+            <form action="" id="addMoney">
+                <div class="addAmount" id="addAmMenu">
+                    <label for="AddCash">Monto a ingresar</label>
+                    <input type="text" name="Agregar Monto" id="addingAmount" required>
+                    <button type="submit" class="submitAmmount">Ingresar monto</button>
+                    <p id="enteredAmount"></p>
+                    <p id="newBalance"></p>
+                </div>
+            </form>
+            <form action="" id="withdrawMoney">
+                <div class="cashWithdraw" id="withdrawAmMenu">
+                    <label for="addMoneyAmount">Monto a retirar</label>
+                    <input type="text" name="addMoneyAm" id="addingAmountb" required>
+                    <button type="submit" class="submitAmmount">Retirar monto</button>
+                    <p id="moneyWithdraw"></p>
+                    <p id="newBalanceA"></p>
+                </div>
+            </form>
+            <div class="check" id="checkBalance">
+                <button type="button" onclick="check()" class="check-balance">Consultar saldo</button>
+                <p id="currentBalance"></p>
+            </div>
+            <div class="close" id="logout">
+                <button type="button" onclick="logout()" class="close-button">Salir</button>
+                <p id="currentBalance"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
